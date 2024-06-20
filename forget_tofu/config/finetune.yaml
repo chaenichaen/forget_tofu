@@ -1,0 +1,19 @@
+model_family: llama2-7b
+model_path : /root/forget/locuslab
+
+LoRA:
+  r: 8
+  alpha: 32
+  dropout: 0.05
+ 
+data_path: locuslab/TOFU
+split: full
+batch_size: 32
+gradient_accumulation_steps: 4
+num_epochs: 5
+lr: 1e-5
+save_dir: /root/forget/locuslab/tofu_ft_${model_family}
+arg_question: /root/forget/config/parphrase_questions.json
+add_save_dir: /root/forget/locuslab/tofu_ft_add${model_family}
+weight_decay: 0.01
+seed: 42

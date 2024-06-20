@@ -1,0 +1,10 @@
+llama2-7b:
+  hf_key: "NousResearch/Llama-2-7b-chat-hf"
+  question_start_tag: "[INST] "
+  question_end_tag: " [/INST]"
+  answer_tag: ""
+  flash_attention2: "true"
+  gradient_checkpointing: "true"
+  full_model_path: "/root/forget/locuslab/tofu_ft_llama2-7b/checkpoint-625"
+  add_ft_model_path : '/root/forget/locuslab/tofu_ft_addllama2-7b/checkpoint-156'
+  

@@ -1,0 +1,6 @@
+retain_result: '/root/forget/locuslab/tofu_ft_llama2-7b/checkpoint-625/grad_ascent_2e-05_forget01_5/checkpoint-0/eval_log_aggregated.json'
+ckpt_result: '/root/forget/locuslab/tofu_ft_llama2-7b/checkpoint-625/grad_ascent_2e-05_forget01_5/checkpoint-0/eval_log_aggregated.json'
+method_name: temp
+submitted_by: john
+split : forget01
+save_file: ${spit}/aggr_result.csv
